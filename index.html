@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: #eceef4;
+        font-family: sans-serif;
+    }
+    
+    .form-wrap {
+        width: 320px;
+        background: #3e3d3d;
+        padding: 40px 20px;
+        box-sizing: border-box;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    h1 {
+        text-align: center;
+        color: #fff;
+        font-weight: normal;
+    }
+    
+    input {
+        width: 100%;
+        background: none;
+        border: 1px solid #fff;
+        border-radius: 3px;
+        padding: 5px 15px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    
+    input[type="button"] {
+        background: whitesmoke;
+        border: 0;
+        cursor: pointer;
+        color: black;
+    }
+    
+    input[type="button"]:hover {
+        background: goldenrod;
+        transition: 0s;
+    }
+    
+     ::placeholder {
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="form-wrap">
+        <form>
+            <h1>Registration Form</h1>
+            <br>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <br>
+            <select name="Country" id="">
+                <option value = "Ghana">Ghana</option>
+                <option value = "Germany">Germany</option>
+                <option value = "Nigeria">Nigeria</option>
+                <option value = "Tog">Tigo</option>
+                <option value = "Burkina - Faso">Burkina-Faso</option>
+                <option value = "USA">USA</option>
+                <option value = "UK">UK</option>
+                <option value = "Italy">Italy</option>
+            </select>
+            <br>
+            <textarea name="subject" placeholder="write something" cols="" rows=""></textarea>
+            <br>
+            <input type="button" value="Submit">
+            <br>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
